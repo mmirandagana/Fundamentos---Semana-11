@@ -13,9 +13,9 @@
 Este repositorio contiene las implementaciones de código C desarrolladas para la Semana 11, enfocadas en dos paradigmas avanzados de computación:
 
 1.  **Computación Paralela (MPI):** Evaluación de rendimiento, escalabilidad y gestión de concurrencia (prevención de deadlocks) en sistemas distribuidos.
-2.  **Simulación Cuántica:** Emulación de lógica cuántica (Qubits, Superposición, Entrelazamiento) utilizando estructuras de datos clásicas para comprender el comportamiento probabilístico de circuitos cuánticos [cite: 8-10, 2047].
+2.  **Simulación Cuántica:** Emulación de lógica cuántica (Qubits, Superposición, Entrelazamiento) utilizando estructuras de datos clásicas para comprender el comportamiento probabilístico de circuitos cuánticos.
 
-[cite_start]El objetivo es demostrar el uso eficiente de recursos de hardware y la aplicación de software de alto desempeño[cite: 2051, 2052].
+El objetivo es demostrar el uso eficiente de recursos de hardware y la aplicación de software de alto desempeño.
 
 ---
 
@@ -24,7 +24,7 @@ Este repositorio contiene las implementaciones de código C desarrolladas para l
 Para compilar y ejecutar estos programas se requiere un entorno Linux (nativo o WSL).
 
 * **Sistema Operativo:** Ubuntu 24.04 (WSL)
-* [cite_start]**Compilador:** GCC y OpenMPI Wrapper (`mpicc`) [cite: 2065-2068]
+* **Compilador:** GCC y OpenMPI Wrapper (`mpicc`) 
 * **Bibliotecas:** `mpi.h`, `math.h`, `time.h`, `stdlib.h`
 
 ### Instalación de Dependencias (Ubuntu/Debian)
