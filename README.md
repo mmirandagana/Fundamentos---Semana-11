@@ -1,0 +1,34 @@
+# ACIF101 - Fundamentos de Computación de Alto Desempeño (Semana 11)
+
+**Evaluación Sumativa 5: Optimización con MPI y Simulación Cuántica**
+
+* **Autor:** Manuel Miranda
+* **Fecha:** 14 de Diciembre, 2025
+* **Curso:** ACIF101 - Universidad Andrés Bello Online
+
+---
+
+## 📋 Descripción del Proyecto
+
+Este repositorio contiene las implementaciones de código C desarrolladas para la Semana 11, enfocadas en dos paradigmas avanzados de computación:
+
+1.  **Computación Paralela (MPI):** Evaluación de rendimiento, escalabilidad y gestión de concurrencia (prevención de deadlocks) en sistemas distribuidos.
+2.  [cite_start]**Simulación Cuántica:** Emulación de lógica cuántica (Qubits, Superposición, Entrelazamiento) utilizando estructuras de datos clásicas para comprender el comportamiento probabilístico de circuitos cuánticos [cite: 8-10, 2047].
+
+[cite_start]El objetivo es demostrar el uso eficiente de recursos de hardware y la aplicación de software de alto desempeño[cite: 2051, 2052].
+
+---
+
+## 🛠️ Entorno de Desarrollo y Requisitos
+
+Para compilar y ejecutar estos programas se requiere un entorno Linux (nativo o WSL).
+
+* **Sistema Operativo:** Ubuntu 24.04 (WSL)
+* [cite_start]**Compilador:** GCC y OpenMPI Wrapper (`mpicc`) [cite: 2065-2068]
+* **Bibliotecas:** `mpi.h`, `math.h`, `time.h`, `stdlib.h`
+
+### Instalación de Dependencias (Ubuntu/Debian)
+Si no tienes configurado MPI, ejecuta:
+```bash
+sudo apt update
+sudo apt install build-essential openmpi-bin libopenmpi-dev
