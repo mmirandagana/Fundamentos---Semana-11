@@ -13,7 +13,7 @@
 Este repositorio contiene las implementaciones de código C desarrolladas para la Semana 11, enfocadas en dos paradigmas avanzados de computación:
 
 1.  **Computación Paralela (MPI):** Evaluación de rendimiento, escalabilidad y gestión de concurrencia (prevención de deadlocks) en sistemas distribuidos.
-2.  [cite_start]**Simulación Cuántica:** Emulación de lógica cuántica (Qubits, Superposición, Entrelazamiento) utilizando estructuras de datos clásicas para comprender el comportamiento probabilístico de circuitos cuánticos [cite: 8-10, 2047].
+2.  **Simulación Cuántica:** Emulación de lógica cuántica (Qubits, Superposición, Entrelazamiento) utilizando estructuras de datos clásicas para comprender el comportamiento probabilístico de circuitos cuánticos [cite: 8-10, 2047].
 
 [cite_start]El objetivo es demostrar el uso eficiente de recursos de hardware y la aplicación de software de alto desempeño[cite: 2051, 2052].
 
