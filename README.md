@@ -69,11 +69,13 @@ Descripción: Este programa demuestra el intercambio seguro de mensajes usando c
 3. Simulación Cuántica
 ----------------------------------
 Archivo: quantum_simulation.c
-Descripción: Este programa simula un circuito cuántico con compuertas Hadamard y CNOT.
+Descripción: Este programa simula un circuito cuántico básico con compuertas Hadamard y CNOT.
 
 -> Compilar:
-   (Nota: Es necesario agregar -lm al final para vincular la librería matemática)
+   Nota: Es necesario agregar el flag -lm al final para vincular la librería matemática.
    gcc -o quantum_sim quantum_simulation.c -lm
 
 -> Ejecutar:
    ./quantum_sim
+
+================================================================================
